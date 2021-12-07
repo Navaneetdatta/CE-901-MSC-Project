@@ -1,0 +1,89 @@
+version: "2.0"
+stories:
+- story: Fee
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Fee
+  - action: utter_Fee_text
+- story: colchester
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: colchester
+  - action: utter_colchester
+- story: southend
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: southend
+  - action: utter_southend
+- story: loughton
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: loughton
+  - action: utter_loughton
+- story: how_are_you
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_are_you
+  - action: utter_for_a_chatbot
+- story: am_good
+  steps:
+  - action: utter_how_are_you_doing
+  - intent: am good
+  - action: utter_great
+  - action: utter_how_can_i_help
+- story: not_happy
+  steps:
+  - intent: not great
+  - action: utter_not_great
+  - intent: deny
+  - action: utter_am_sorry
+  - action: utter_goodbye
+- story: not_happy
+  steps:
+  - intent: not great
+  - action: utter_not_great
+  - intent: affirm
+  - action: utter_how_can_i_help
+- story: transfer
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Transfer
+  - action: utter_transfer
+- story: address
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Address
+  - action: utter_address
+- story: jobs
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: jobs
+  - action: utter_jobs
+- story: results
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: results
+  - action: utter_results
+- story: Story from Conversation ID 198772b910cc4791804ae1238a40c4a7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Fee
+  - action: utter_Fee_text
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: address
+  - action: utter_address
+  - intent: southland
+  - action: utter_jobs
+  - intent: southland
+  - action: utter_southend

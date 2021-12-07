@@ -1,0 +1,117 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- results:
+    use_entities: true
+- jobs:
+    use_entities: true
+- okay:
+    use_entities: true
+- greet:
+    use_entities: true
+- am good:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- Fee:
+    use_entities: true
+- Thankyou:
+    use_entities: true
+- Transfer:
+    use_entities: true
+- Address:
+    use_entities: true
+- how_are_you:
+    use_entities: true
+- colchester:
+    use_entities: true
+- southend:
+    use_entities: true
+- loughton:
+    use_entities: true
+- southland:
+    use_entities: true
+- address:
+    use_entities: true
+- not great:
+    use_entities: true
+- subjects:
+    use_entities: true
+- subject:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Hey! is there any way i can help you dear!
+  - text: Hello! how can i help you
+  - text: heyyy, how may i assist you today dear
+  utter_goodbye:
+  - text: Bye have a nice day
+  - text: Byeeee, you can close the window now
+  - text: have a great day
+  - text: Have a nice day
+  utter_am_sorry:
+  - text: am sorry i was of no help!
+  utter_u_r_welcome:
+  - text: you are welcome
+  utter_how_are_you_doing:
+  - text: how are you doing dear?
+  utter_subject:
+  - text: we offere multiple courses, the best way for you to find out in this website https://www.essex.ac.uk/subjects
+  - text: we teach different subject and you can find them here https://www.essex.ac.uk/subjects
+  - text: regarding subjects we offer, you can find all the information here https://www.essex.ac.uk/subjects
+  utter_colchester:
+  - text: colchester campus is located in 'Wivenhoe Park, Colchester CO4 3SQ'
+  utter_southend:
+  - text: southend campus is located in '36 Queens Rd, Southend-on-Sea SS1 1BF'
+  utter_loughton:
+  - text: loughton campus is located in 'Hatfields, Rectory Lane, Loughton IG10 3RY'
+  utter_transfer:
+  - text: let me connect you to an associate
+  utter_for_a_chatbot:
+  - text: well technially i am a bot so i guess iam doing well for a bot.
+  utter_iamabot:
+  - text: well, yes i'am actully a bot, but dont worry i will help you with your query, if you feel like i am not helping you just say i want to talk to an associate and ill i will transfer you to an associate
+  utter_Fee_text:
+  - text: Fee is different for different courses hence, the best option is to to check in the website of the course you are looking to join
+  utter_is_there_anything_else:
+  - text: you are welcome, is there anything else that i can help you with dear?
+  utter_else_dear:
+  - text: is there anything else that i can help you with dear?
+  utter_how_can_i_help:
+  - text: how can i help you?
+  utter_great:
+  - text: Thats great to hear.
+  utter_not_great:
+  - text: i am sorry to hear that, is there anything i can help you with, that will make u feel better?
+  utter_anything_else:
+  - text: is there anything else that i can help you with dear?
+  utter_jobs:
+  - text: That sounds great you are looking to join us. you can find all oppertunities that are available right now! here https://www1.essex.ac.uk/vacancies/categories.aspx?jobtype=all
+  utter_results:
+  - text: you can find your results in this page if your results are out 'https://www1.essex.ac.uk/results/' "all the best for your results dear"
+  utter_submit:
+  - text: your details have been submitted.
+  utter_address:
+  - buttons:
+    - payload: colchester
+      title: colchester
+    - payload: southend
+      title: southend
+    - payload: loughton
+      title: loughton
+    text: we are located in three campuses, whichh once are you looking for?
+actions: []
+forms: {}
+e2e_actions: []

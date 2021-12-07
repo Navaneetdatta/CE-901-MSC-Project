@@ -1,0 +1,26 @@
+[
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.49076029658317566
+    }
+  },
+  {
+    "text": "can you help me with the colchester campus location",
+    "intent": "colchester",
+    "intent_prediction": {
+      "name": "southland",
+      "confidence": 0.6342292428016663
+    }
+  },
+  {
+    "text": "can you help me with the southend campus address",
+    "intent": "southland",
+    "intent_prediction": {
+      "name": "colchester",
+      "confidence": 0.4790683686733246
+    }
+  }
+]

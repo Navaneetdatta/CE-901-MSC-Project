@@ -1,0 +1,160 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - morning
+    - hey there
+    - sup
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: how_are_you
+  examples: |
+    - how are you?
+    - how you doing?
+    - how was your day
+    - how are you feeling today?
+    - how is everythig?
+    - how is everything going on?
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good bye
+    - cee you later
+    - see you later
+    - bye
+    - have a nice day
+    - see you around
+    - bye bye
+- intent: affirm
+  examples: |
+    - yes
+    - yeahhh
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - true
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am i talking to a bot?
+    - am i talking to a human?
+    - am i speaking to a bot or a human?
+    - am i speaking to a chatbot?
+- intent: Fee
+  examples: |
+    - can you help me with the fee structure?
+    - where can i find the fee structure?
+    - what is the fee for the courses?
+    - could you help me with the fee?
+    - whts the fee?
+    - may i know the fee?
+- intent: Thankyou
+  examples: |
+    - Thanks mate
+    - danke
+    - i got what i wanted
+    - Thanks
+    - thnx
+    - 10q
+    - Thanks buddy
+- intent: Transfer
+  examples: |
+    - i would like to talk to an human!.
+    - i would love to talk to an human.
+    - is there a way i can talk to an actually human?
+    - i would like to talk to an associate
+    - i want to talk to an associate
+    - is there a possibility that i can speak to an human.
+    - can you tranfer it to an associate?
+    - can i talk to an associate?
+- intent: address
+  examples: |
+    - where is the college located?
+    - could you help me with the location uni is located?
+    - where is the uni lovated?
+    - where is the university located?
+    - where is the uni?
+    - can you help me with the address?
+- intent: colchester
+  examples: |
+    - where is colchester campus located.
+    - whats the location of colchester campus.
+    - wher exactly is colchester essex located.
+    - can you help me with the colchester campus address
+    - can you help me with the colchester campus location
+- intent: southland
+  examples: |
+    - where is southend campus located
+    - where is the location of southend campus
+    - where is the location of south end campus
+    - can you help me with the southend campus address
+    - can you help me with the southend campus location
+    - southend
+- intent: loughton
+  examples: |
+    - where is loughton campus located
+    - where is the location of loughton camopus
+    - where exactly is loughton campus
+    - can you help me with the loughton campus address
+    - can you help me with the loughton campus location
+- intent: okay
+  examples: |
+    - okay!
+    - k
+    - ok
+    - okayyy
+    - okie
+    - gaat it
+- intent: not great
+  examples: |
+    - not soo good!
+    - bad had
+    - no i am not feeling good!
+    - no i am not soo good.
+    - no not great
+- intent: am good
+  examples: |
+    - i am good
+    - i am great thanks
+    - i am good thanks for asking
+    - good
+    - great
+    - fine
+    - i am doing well
+- intent: jobs
+  examples: |
+    - where can i find jobs in essex
+    - where can i see the jon oppenings?
+    - where do i find job oppertunities offered by essex
+    - do u have jobs?
+    - are you hiring?
+    - are there any jobs in essex?
+    - are you guys looking for employees?
+    - are there any oppenings?
+- intent: results
+  examples: |
+    - where can i find my results
+    - what site does my results are released?
+    - can you help me with my results
+
+- intent: subject
+  examples: |
+    - what subjects do you offer
+    - what courses do you have
+    - what are all the subjects in uni
+    - what do you guys teach
+    - what all teaching is done hear!
+
